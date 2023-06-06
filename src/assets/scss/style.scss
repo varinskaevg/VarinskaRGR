@@ -1,0 +1,223 @@
+.bod{
+ background: #b7bfff;
+}
+.menu-button {
+  background-color: #444444; /* Колір фону кнопки */
+  border: none; /* Видалити границю кнопки */
+  color: white; /* Колір тексту кнопки */
+  padding: 10px 20px; /* Відступи кнопки */
+  text-decoration: none; /* Видалити підкреслення тексту */
+  display: inline-block; /* Встановити кнопку як блочний елемент */
+  font-size: 16px; /* Розмір шрифту */
+  transition-duration: 0.4s; /* Час зміни стилів при наведенні курсору */
+  cursor: pointer; /* Змінити курсор на показник при наведенні */
+  width: 100px;
+}
+.menu-button:hover {
+  background-color: #1a1414; /* Колір фону кнопки при наведенні */
+}
+.iconka{
+  height: 30px;
+  width: 30px;
+}
+.header{
+  display: flex;
+  background: url("../../assets/image/fon.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  font-weight: bold;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+.icon{
+  height: 80px;
+  width: 80px;
+  margin-left: 50px;
+}
+.menu {
+  float: right;
+  margin-left: 180px;
+  cursor: pointer;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.menu span {
+  margin-right: 20px;
+}
+
+.hide{
+  padding: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.hide:hover{
+  color: red;
+}
+.content{
+  display: flex;
+  font-size: 3vh;
+  font-weight: normal;
+  margin-top: 80px;
+  font-stretch: normal;
+  background: #4b4b4b;
+  width: 100%;
+  color: white;
+}
+.admin{
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 100px;
+  padding: 15px;
+}
+
+.page-page h1{
+  color: #0c0b06;
+  background-color: #004080;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.active-head h3 {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #050503;
+}
+
+.active-box:hover{
+  background-color: #413e3e;
+}
+.image-head img{
+  width: 50px;
+  height: 100px;
+}
+.plate{
+  margin: 0;
+  font-weight: 1.6em;
+  padding: 50px;
+}
+.plate h3 {
+  font-size: 1.3em;
+}
+.profile-desc h3 {
+  color: #004080;
+}
+.admins{
+  padding: 20px;
+  font-size: 20px;
+  width: 50%;
+}
+.content2{
+  display: flex;
+  font-size: 3vh;
+  font-weight: normal;
+  margin-top: 5px;
+  font-stretch: normal;
+  width: 100%;
+  margin-left: 150px;
+}
+.content2 img{
+  width: 230px;
+  height: 300px;
+}
+.row{
+  display: flex;
+  font-size: 20px;
+  width: 110%;
+  text-align: center;
+  border: 2px solid black;
+}
+.foto{
+  height: 100px;
+  width: 100px;
+}
+.info{
+    display: flex;
+    font-size: 3vh;
+    font-weight: bold;
+    margin-top: 0px;
+    font-stretch: normal;
+    width: 100%;
+    color: #ffffff;
+    background: #4b4b4b;
+    padding: 15px;
+}
+.text{
+  font-weight: bold;
+  font-size: 22px;
+  padding: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.new{
+  display: flex;
+  font-size: 3vh;
+  font-weight: bold;
+  margin-top: 0px;
+  font-stretch: normal;
+  width: 100%;
+  color: #ffffff;
+  background: #4b4b4b;
+  padding: 10px;
+}
+.carousel-item {
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+}
+.carousel-caption {
+  text-align: left;
+  left: 10%;
+}
+.carousel-caption h5 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.carousel-caption p {
+  font-size: 18px;
+}
+.carousel-image {
+    width: 400px;
+    height: 300px;
+  }
+
+
+
+
+.menu-items {
+  display: none;
+  position: absolute;
+  background-color: #7e7979;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  color: white;
+  list-style: none;
+}
+
+.menu:hover .menu-items {
+  display: block;
+}
+
+.menu-title {
+  cursor: pointer;
+}
+
+
+footer{
+  background: #2d2c2c;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 10.1vh;
+  text-align: center;
+  color: white;
+}
+.prava{
+  font-size: 2vh;
+  padding-top: 2.5vh;
+  line-height: 1vh;
+}

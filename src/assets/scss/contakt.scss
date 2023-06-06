@@ -1,0 +1,32 @@
+.main_map{
+  background: rgba(var(--color1-1), 0.5);
+  box-shadow: 0 0 5px 5px var(--color1);
+  margin-top: 10px;
+  text-align: center;
+}
+.name_map{
+  color: var(--color5);
+  font-family: "Arial Black", sans-serif;
+  text-shadow: 2px 1px 3px black;
+}
+iframe{
+  box-shadow: 0 0 5px 5px black;
+}
+
+.myname{
+  margin-top: 100px;
+}
+.my{
+  color: blueviolet;
+  font-size: 35px;
+  text-shadow: 2px 1px 3px black;
+}
+.kont{
+  color: #f51068;
+  font-size: 25px;
+  text-shadow: 2px 1px 3px black;
+}
+.nomer{
+  font-size: 20px;
+  text-shadow: 2px 1px 3px black;
+}
